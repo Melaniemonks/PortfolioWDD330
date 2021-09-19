@@ -40,3 +40,24 @@ ul{
     margin: 1rem;
     color:rgb(255, 255, 240);
 }
+
+/*notes*/
+
+.excercies h2, h3{
+    padding:.3rem;
+}
+
+.activity{
+    padding:.3rem;
+    margin:1rem;
+}
+
+button{
+    margin:.1rem;
+   padding:.3rem
+}
+
+textarea{
+    height: 200px;
+    width: 500px;
+}
