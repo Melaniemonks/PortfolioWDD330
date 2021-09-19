@@ -1,7 +1,7 @@
 const links = [
     {
       label: "Week1 notes",
-      url: "melaniemonks.github.io/PortfolioWDD330/week01/index.html"
+      url: "week01/index.html"
     },
 
     {
