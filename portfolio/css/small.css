@@ -1,0 +1,44 @@
+body{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 240);
+    box-shadow: 1px 2px 3px 4px grey;
+}
+p{
+    font-family: 'Josefin Slab', serif;
+}
+
+.top{
+    text-align: center;
+    background-color:rgb(64, 130, 109);
+    padding:.6rem;
+    font-family: 'Cinzel', serif;
+    box-shadow: 1px 2px 3px 4px grey;
+    margin: .1rem;
+    color:rgb(255, 255, 240);
+}
+
+main{
+    padding:.5rem;
+}
+
+ol{
+    font-size:1.1rem;
+    font-family:'Josefin Slab', serif;;
+}
+
+.todo h2{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    background-color:rgb(64, 130, 109);
+    padding:.3rem;
+    font-family: 'Cinzel', serif;
+    box-shadow: 1px 2px 3px 4px grey;
+    margin: 1rem;
+    color:rgb(255, 255, 240);
+}
+
+.todo{
+    font-size:1.1rem;
+    font-family: 'Josefin Slab', serif; 
+}
