@@ -1,7 +1,7 @@
 body{
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 240);
+    background-color: grey;
     box-shadow: 1px 2px 3px 4px grey;
 }
 p{
@@ -20,6 +20,7 @@ p{
 
 main{
     padding:.5rem;
+    background-color:rgb(255, 255, 240);
 }
 
 ol{

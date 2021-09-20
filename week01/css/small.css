@@ -1,13 +1,17 @@
 body{
     max-width: 800px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 240);
+    background-color: grey;
     box-shadow: 1px 2px 3px 4px grey;
 }
 
 h2{
     text-align: center;
     font-family: 'Cinzel', serif;
+}
+h3{
+    font-family: 'Cinzel', serif;
+    border-bottom: 1px double black;
 }
 p{
     font-family: 'Josefin Slab', serif;
@@ -26,6 +30,7 @@ p{
 
 main{
     padding:.5rem;
+    background-color: rgb(255, 255, 240);
 }
 
 ul{
@@ -60,6 +65,8 @@ input{
 .activity{
     padding:.5rem;
     margin:1rem;
+    border-left: 3px solid black;
+    border-top-left-radius: .1rem;
 }
 
 .button{
@@ -74,7 +81,7 @@ button{
 textarea{
     margin-top:1rem;
     height: 200px;
-    width: 500px;
+    width: 300px;
     font-family:'Josefin Slab', serif ;
     
 }

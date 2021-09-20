@@ -1,7 +1,7 @@
 function loadStory(){
     var storyName = document.getElementById("name_input").value;
     var storyHTML = localStorage.getItem(storyName);
-    document.getElementById("story_editor").value=storyHTML;
+    document.getElementById("story_editor").value = storyHTML;
   };
   function saveStory(){
     var storyName = document.getElementById("name_input").value;
