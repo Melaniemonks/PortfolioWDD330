@@ -1,27 +1,9 @@
-const links = [
-    {
-      label: "Week1 notes",
-      url: "week01/index.html"
-    },
-
-    {
-      label: "Week2 notes",
-      url: "week02/index.html"
-    }
-  ]
-
-const name1 = document.getElementById("weeks")
-
-for (let i=0 ; i < links.length; i++){
-    var ttt = document.createElement("li");
-    var aaa = document.createElement("a");
-
-    aaa.textContent=links[i].label;
-    aaa.setAttribute("href", links[i].url);
-
-    ttt.appendChild(aaa);
-    name1.append(ttt);
-
+function isEven(n) {
+  if (n == 0) return true;
+  else if (n == 1) return false;
+    else if (n < 0) return isEven(-n);
+  else return isEven(n - 2);
 }
 
+             
 
