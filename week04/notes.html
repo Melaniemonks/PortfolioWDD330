@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
         rel="stylesheet">
     <title>Notes/excercies</title>
 </head>
+
 <body>
     <header>
         <section class="top">
@@ -21,64 +23,61 @@
         </section>
     </header>
     <main>
-        <section class="Notes"> 
+        <section class="Notes">
             <h2>Notes</h2>
             <section class="part">
-                <h3>Programming Basics</h3>
-            <ul>
-                <li><strong>object literals: </strong> Are written using "const" when variables will not be reassigned and "let" when variable might be reassigned.</li>
-               
-            </ul>
+                <h3>Forms</h3>
+                <ul>
+                    <strong>This is a common method used to interact with web pages. It is made up of the form element
+                        which contains controls such as: input fields, select menus and buttons.</strong>
+                    <ul>
+                        <li>When a form is submitted, the information is sent to a back end language</li>
+                        <li>The default type of input field istext, which is used for entering a short piece of text,
+                            such as a username.</li>
+                        <li>input type='password'is used to enter passwords or secret information.</li>
+                        <li>Button has a default type "submit</li>
+
+                    </ul>
+                </ul>
             </section>
 
             <section class="part">
-                <h3>Arrays, Logic, and Loops</h3>
-            <ul>
-                <li><strong>Arrays[]: </strong> Ordered list of values</li>
-                <p>Example: <br>
-                    const superman = {<br>
-                        name: 'Superman',<br>
-                        'real name': 'Clark Kent',<br>
-                        height: 75,<br>
-                        weight: 235,<br>
-                        hero: true,<br>
-                        villain: false,<br>
-                        allies: ['Batman','Supergirl','Superboy'],<br>
-                        fly() {<br>
-                            return 'Up, up and away!';<br>
-                        }
-                        };
-                                
+                <h3>Object Oriented Programming</h3>
+                <ul>
 
-                        <strong>delete: Use to remove an item from an array. Eg. delete heroes[1]</strong>
+                    <strong>This is used to model the representation of objects in the real world. There are three
+                        types: Encapsulation, polymorphism and inheritance.</strong>
+                    <ul>
+                        <li>Encapsulation: In this case, the inner workings are kept hidden inside the object and only
+                            the essential functionality are exposed.</li>
+                        <li>polymorphism: This means that various objects can share the same methods.</li>
+                        <li>Inheritance: This takes an object that already exists and inherit all the properties and
+                            methods</li>
+                        <li>Clasess: Classes are used to define the blueprint.</li>
+                    </ul>
 
-                </p>
-
-                <li><strong>Logics: </strong> "if" and "else" statements</li>
-
-                <li><strong>Loops: </strong> Repeats a piece of code over and over again according to certain conditions.</li>
-                <p>Types: While loop and For loops 
-                       
-                      
-                </p>
-                
-               
-            </ul>
+                </ul>
             </section>
-            
+
+            <section class="part">
+                <h3>Modular JavaScript</h3>
+                <ul>
+                    <strong>A module is a self-contained piece of code that provides functions and methods that can then
+                        be used in other files and by other modules.</strong>
+
+                </ul>
+            </section>
+
         </section>
         <section class="excercies">
             <h3>Excercises</h3>
-            <h4>EVENTS
-                
-            </h4>
-            <button onclick="displayDate()">Display </button>
-            <p id="Demo">/p>
+            <h4>Class</h4>
+            <p id="demo"></p>
 
-            
         </section>
-        
+
     </main>
     <script src="js/main.js"></script>
 </body>
+
 </html>

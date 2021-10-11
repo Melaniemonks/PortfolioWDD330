@@ -1,9 +1,10 @@
-let list = new Array(4);
-let names = ['Melanie', 'Comfort', 'Ebube', 'Darren']
+class Movie{
+    constructor(name, year){
+        this.name = name;
+        this.year = year;
+    }
 
+}
 
-
-
-
-document.getElementById('array').innerHTML = names;
-
+const theMovie = new Movie("Stranger things", 2021);
+document.getElementById('demo').innerHTML = theMovie.name + "-" + theMovie.year;
