@@ -18,6 +18,11 @@ const links = [
       label: "Week4 notes",
       url: "week04/index.html"
     }
+
+    {
+      label: "Week5 notes",
+      url: "week05/index.html"
+    }
   ]
 
 const name1 = document.getElementById("weeks")
