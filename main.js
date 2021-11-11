@@ -22,11 +22,6 @@ const links = [
     {
       label: "Week5 notes",
       url: "week05/index.html"
-    },
-
-    {
-      label: "Week 6 (To do list)",
-      url: "week06/index.html"
     }
 
 
@@ -43,6 +38,27 @@ for (let i=0 ; i < links.length; i++){
 
     ttt.appendChild(aaa);
     name1.append(ttt);
+
+}
+
+const toDo = [
+  {
+    label: "Week 6 (To do list)",
+    url: "week06/index.html"
+  }
+]
+
+const name1 = document.getElementById("toodo")
+
+for (let i=0 ; i < links.length; i++){
+  var link = document.createElement("li");
+  var anchor = document.createElement("a");
+
+  aaa.textContent=links[i].label;
+  aaa.setAttribute("href", links[i].url);
+
+  link.appendChild(anchor);
+  name1.append(link);
 
 }
 
