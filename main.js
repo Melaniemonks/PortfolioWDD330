@@ -22,7 +22,14 @@ const links = [
     {
       label: "Week5 notes",
       url: "week05/index.html"
+    },
+
+    {
+      label: "Week 6 (To do list)",
+      url: "week06/index.html"
     }
+
+
   ]
 
 const name1 = document.getElementById("weeks")

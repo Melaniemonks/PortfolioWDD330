@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo App</title>
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Josefin+Slab:ital@1&family=Sacramento&display=swap"
+        rel="stylesheet">
+    </head>
+    <body>
+        <section class="top">
+            <h1>Week Six</h1>
+            <p>ToDo</p>
+        </section>
+        <main>
+            <div id="wrap">
+                <div id="cont">
+
+                    <!-- To Do List -->
+                    <div id="list"></div>
+                        
+                    <!-- Footer (Total Tasks, To-Do Tasks, Completed Tasks) -->
+                    <div id="footer"><br>
+                        <span id="total">0 task left</span>
+                        <span id="filter">
+                            <label><input type="radio" name="filter" value="all" id="all" checked="checked"><span>All</span></label>
+                            <label><input type="radio" name="filter" value="active" id="active"><span>Active</span></label>
+                            <label><input type="radio" name="filter" value="completed" id="completed"><span>Completed</span></label>
+                        </span>
+                    </div><br>
+                    <!-- Add a new task -->
+                    <div id="input">
+                        <input type="text" name="task" id="addTask" placeholder="Add new Task">
+                        <button id="add">+</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>Click <a href="../index.html">here</a> to go back to Weekly Content.</footer>
+    
+        <script src="js/main.js" type="module"></script>
+      </body>
+</html>

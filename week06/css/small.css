@@ -1,0 +1,136 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: grey;
+    box-shadow: 1px 2px 3px 4px grey;
+}
+
+.top{
+    text-align: center;
+    background-color:rgb(64, 130, 109);
+    padding:.6rem;
+    font-family: 'Cinzel', serif;
+    box-shadow: 1px 2px 3px 4px grey;
+    margin: .1rem;
+    color:rgb(255, 255, 240);
+}
+
+main{
+    padding:.5rem;
+    background-color: rgb(255, 255, 240);
+    font-family: 'Josefin Slab', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#wrap{
+    background-color: rgb(237, 234, 240);
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#footer { 
+    margin-bottom: 20px; 
+}
+#filter { 
+    float:right; 
+}
+
+#addTask {
+    width: 82%;
+    font-size: 1rem;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid grey0;
+    
+}
+#add {
+    width: 5%;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 1rem;
+    color: rgb(121, 121, 121);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+#add:hover {
+    background-color: rgb(64, 130, 109);
+    color: white;
+    cursor: copy;
+}
+#list {
+    margin: 0 auto 10px auto;
+}
+.task {
+    display: flex;
+    margin: 0 auto 10px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 5px;
+}
+label.checkbox-container, div.taskname, button.taskremove {
+    display: inline;
+    align-content: center;
+}
+label.checkbox-container {
+    width: 45px;
+    height: 30px;
+}
+div.taskname {
+    font-size: 1.6em;
+    padding: .3em;
+}
+
+button.taskremove {
+    margin-left: auto;
+    margin-right: 2px;
+    text-align: center;
+    width: 32px;
+    height:32px;
+    color: rgb(121, 121, 121);
+}
+button.taskremove:hover {
+    background-color:grey;
+    border: 1px solid black;
+}
+#task-input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+input[type="checkbox"] {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+	border-radius: 3px;
+    margin-right: 10px;
+    appearance: none;
+}
+input[type="checkbox"]:checked {
+	background-color:rgb(64, 130, 109) ;
+	color: #99a1a7;
+}
+input[type="checkbox"]:checked:after {
+    color: white;
+    width: 30px;
+    height: 30px;
+	content: '✔︎';
+	font-size: 18px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+
+}
+footer {
+    text-align: center;
+    background-color:rgb(64, 130, 109) ;
+    color: white;
+    padding:1rem;
+    font-family: 'Cinzel', serif;
+}
