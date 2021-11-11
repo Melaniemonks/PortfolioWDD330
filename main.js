@@ -43,19 +43,19 @@ for (let i=0 ; i < links.length; i++){
 
 const toDo = [
   {
-    label: "Week 6 (To do list)",
+    label: "Todo list",
     url: "week06/index.html"
   }
 ]
 
 const name2 = document.getElementById("toodo")
 
-for (let i=0 ; i < links.length; i++){
+for (let i=0 ; i < toDo.length; i++){
   var link = document.createElement("li");
   var anchor = document.createElement("a");
 
-  aaa.textContent=links[i].label;
-  aaa.setAttribute("href", links[i].url);
+  anchor.textContent = toDo[i].label;
+  anchor.setAttribute("href", toDo[i].url);
 
   link.appendChild(anchor);
   name2.append(link);
