@@ -48,7 +48,7 @@ const toDo = [
   }
 ]
 
-const name1 = document.getElementById("toodo")
+const name2 = document.getElementById("toodo")
 
 for (let i=0 ; i < links.length; i++){
   var link = document.createElement("li");
@@ -58,7 +58,7 @@ for (let i=0 ; i < links.length; i++){
   aaa.setAttribute("href", links[i].url);
 
   link.appendChild(anchor);
-  name1.append(link);
+  name2.append(link);
 
 }
 
