@@ -62,13 +62,25 @@
                     <li>All drawings are made using a canvas JavaScript API</li>
                     <li>The canvas element is then stored in a variable</li>
                     <li>A context variable is also created. Eg var  context = canvas.getContext("2d" )</li> 
-                    <li>For brush color use "strokeStyle"</li>                      \\)</li>
+                    <li>For brush color use "strokeStyle"</li> 
                 </ul>
 
-                <strong>SVG</strong>
+                <strong>Canvas vs SVG</strong>
                 <ul>
-                    <li>Full meaning "Scalable Vector Graphic"</li>
-                    <li>It is a file format that allows us to describe vector graphics using XML</li>
+                    <li>They both are used to draw custom shapes</li>
+                    <li>Canvas allows for pixel manipulation</li>
+                    <li>canvas operates in immediate nodes</li>
+                    <li>There is no acess to what is drawn on the canvas via the DOM</li>
+                    <li>SVG is accessible via the DOM thus causing cancas to be much faster</li>
+                    <li>SVG has Raphael Library, Inkscape</li>
+                </ul>
+
+                <strong>Drag and Drop</strong>
+                <ul>
+                    <li>API helps specify is elements are dragable and what happens when they are dragged</li>
+                    <li>Set the "draggable" attribute on any HTML element that you like to drag</li>
+                    <li>Add event listner for any dragstart event</li>
+                    <li>Add event listner for the dragover and drop event</li>
                 </ul>
 
             </section>
